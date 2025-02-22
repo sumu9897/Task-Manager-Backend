@@ -110,7 +110,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Task Management Server running!");
+  res.send("Task Management Server running");
 });
 
 app.listen(port, () => {
